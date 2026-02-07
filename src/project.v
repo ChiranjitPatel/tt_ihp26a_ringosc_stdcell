@@ -101,4 +101,4 @@ module tt_um_algofoogle_tt09_ring_osc2 (
   assign uio_out[1] = 1'b0;
 
 endmodule
-Sevachirpass@1
+// Sevachirpass@1
