@@ -13,7 +13,7 @@ module amm_inverter (
     output  wire y
 );
 
-    (* keep_hierarchy *) sky130_fd_sc_hd__inv_2   sky_inverter (
+    (* keep_hierarchy *) sg13g2_inv_4    ihp_inverter (
         .A  (a),
         .Y  (y)
     );
