@@ -47,13 +47,13 @@ module tt_um_algofoogle_tt09_ring_osc2 (
 
 
   // Ring of 125 inverters, output on uo_out[0] ~ 112MHz, if it makes it out?
-  ring_osc #(.DEPTH(62)) ring_125 (.ena(ena), .osc_out(uo_out[0]));
-  // Ring of 251 inverters, output on uo_out[1] ~ 56MHz?
-  ring_osc #(.DEPTH(125)) ring_251 (.ena(ena), .osc_out(uo_out[1]));
-  // Ring of 501 inverters, output on uo_out[2] ~ 28MHz?
-  ring_osc #(.DEPTH(250)) ring_501 (.ena(ena), .osc_out(uo_out[2]));
-  // Ring of 1001 inverters, output on uo_out[3] ~ 14MHz?
-  ring_osc #(.DEPTH(500)) ring_1001 (.ena(ena), .osc_out(uo_out[3]));
+  ring_osc #(.DEPTH(1)) ring_1 (.ena(ena), .osc_out(uo_out[0]));
+  // // Ring of 251 inverters, output on uo_out[1] ~ 56MHz?
+  // ring_osc #(.DEPTH(125)) ring_251 (.ena(ena), .osc_out(uo_out[1]));
+  // // Ring of 501 inverters, output on uo_out[2] ~ 28MHz?
+  // ring_osc #(.DEPTH(250)) ring_501 (.ena(ena), .osc_out(uo_out[2]));
+  // // Ring of 1001 inverters, output on uo_out[3] ~ 14MHz?
+  // ring_osc #(.DEPTH(500)) ring_1001 (.ena(ena), .osc_out(uo_out[3]));
 
   // Clocking a simple counter as a clock divider for ring_501...
   // Naive, unless I configure CTS and SDC?
@@ -101,3 +101,4 @@ module tt_um_algofoogle_tt09_ring_osc2 (
   assign uio_out[1] = 1'b0;
 
 endmodule
+Sevachirpass@1
