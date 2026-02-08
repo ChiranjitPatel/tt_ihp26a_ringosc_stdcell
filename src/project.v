@@ -69,7 +69,7 @@ module tt_um_algofoogle_tt09_ring_osc2 (
   wire _unused = &{clk, 1'b0};
 
   assign uio_oe = 8'b1100_0011;
-  assign uo_out[7:3] = 6'b000000;
+  assign uo_out[7:3] = 0;
   assign uio_out[7:1] = 0;
 
 
