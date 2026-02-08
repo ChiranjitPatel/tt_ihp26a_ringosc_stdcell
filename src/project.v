@@ -70,9 +70,8 @@ module tt_um_algofoogle_tt09_ring_osc2 (
 
   assign uio_oe = 8'b1100_0011;
   assign uo_out[7:2] = 6'b000000;
-  assign uio_out[5:2] = 4'b0000;
-  assign uio_out[7] = 1'b0;
-  assign uio_out[1] = 1'b0;
+  assign uio_out[7:1] = 0;
+
 
 endmodule
 // Sevachirpass@1
