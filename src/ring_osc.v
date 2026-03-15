@@ -13,7 +13,7 @@ module amm_inverter (
     output  wire y
 );
 
-    (* keep_hierarchy *) sg13g2_inv_4    ihp_inverter (
+    (* keep_hierarchy *) sg13g2_inv_1    ihp_inverter (
         .A  (a),
         .Y  (y)
     );
