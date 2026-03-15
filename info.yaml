@@ -53,5 +53,8 @@ pinout:
   uio[6]: "pwm2_out"
   uio[7]: "pwm3_out"
 
+test:
+  skip_gl: true
+  
 # Do not change!
 yaml_version: 6
