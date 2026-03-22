@@ -1,4 +1,4 @@
-module sampler_xor #(
+module LT_sampler_xor #(
     parameter N = 4
 )(
     input wire clk,          // Sampling clock

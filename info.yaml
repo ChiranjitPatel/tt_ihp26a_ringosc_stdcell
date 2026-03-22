@@ -20,6 +20,9 @@ project:
     - "ring_osc.v"
     - "project.v"
     - "LT_RO_entropy.v"
+    - "LT_inverter.v"
+    - "LT_ring_osc_array.v"
+    - "LT_sampler_xor.v"
     # - "sky130_polyfill.v"
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
