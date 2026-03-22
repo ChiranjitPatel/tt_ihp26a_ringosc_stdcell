@@ -7,7 +7,7 @@ module sampler_xor #(
     output reg entropy_bit
 );
     // === TOGGLE THIS FLAG FOR SIMULATION VS HARDWARE ===
-    localparam USE_FAKE_ENTROPY = 1; // <-- Set to 1 for sim, 0 for real hardware
+    localparam USE_FAKE_ENTROPY = 0; // <-- Set to 1 for sim, 0 for real hardware
 
     // 16-bit LFSR for simulation
     reg [15:0] lfsr;

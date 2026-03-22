@@ -1,0 +1,243 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sun Mar 22 22:37:49 2026
+# Process ID: 23884
+# Current directory: D:/Github/tt_ihp26a_ringosc_stdcell/Vivado/RO_XOR/RO_XOR.runs/synth_1
+# Command line: vivado.exe -log LT_RO_entropy.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source LT_RO_entropy.tcl
+# Log file: D:/Github/tt_ihp26a_ringosc_stdcell/Vivado/RO_XOR/RO_XOR.runs/synth_1/LT_RO_entropy.vds
+# Journal file: D:/Github/tt_ihp26a_ringosc_stdcell/Vivado/RO_XOR/RO_XOR.runs/synth_1\vivado.jou
+# Running On        :GHOST
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26200
+# Processor Detail  :Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz
+# CPU Frequency     :2496 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :17041 MB
+# Swap memory       :4563 MB
+# Total Virtual     :21604 MB
+# Available Virtual :6339 MB
+#-----------------------------------------------------------
+source LT_RO_entropy.tcl -notrace
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 514.492 ; gain = 197.344
+Command: synth_design -top LT_RO_entropy -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+INFO: [Synth 8-7075] Helper process launched with PID 24312
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 972.637 ; gain = 455.168
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'LT_RO_entropy' [D:/Github/tt_ihp26a_ringosc_stdcell/src/ring_osc_array.v:4]
+INFO: [Synth 8-6157] synthesizing module 'LT_ring_osc_array' [D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_ring_osc_array.v:1]
+INFO: [Synth 8-6157] synthesizing module 'LT_ring_osc' [D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_ring_osc_array.v:12]
+	Parameter DEPTH bound to: 2 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'LT_inverter' [D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v:1]
+INFO: [Synth 8-6157] synthesizing module 'sg13g2_inv_1' [D:/Github/tt_ihp26a_ringosc_stdcell/src/sg13g2_cells_sim.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'sg13g2_inv_1' (0#1) [D:/Github/tt_ihp26a_ringosc_stdcell/src/sg13g2_cells_sim.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'LT_inverter' (0#1) [D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'LT_ring_osc' (0#1) [D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_ring_osc_array.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'LT_ring_osc_array' (0#1) [D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_ring_osc_array.v:1]
+INFO: [Synth 8-6157] synthesizing module 'sampler_xor' [D:/Github/tt_ihp26a_ringosc_stdcell/src/sampler_xor.v:1]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'sampler_xor' (0#1) [D:/Github/tt_ihp26a_ringosc_stdcell/src/sampler_xor.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'LT_RO_entropy' (0#1) [D:/Github/tt_ihp26a_ringosc_stdcell/src/ring_osc_array.v:4]
+WARNING: [Synth 8-7129] Port ro_in[3] in module sampler_xor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ro_in[2] in module sampler_xor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ro_in[1] in module sampler_xor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ro_in[0] in module sampler_xor is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1082.348 ; gain = 564.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1082.348 ; gain = 564.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1082.348 ; gain = 564.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1082.348 ; gain = 564.879
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'ro_array/ring_array5_1' (LT_ring_osc) to 'ro_array/ring_array5_2'
+INFO: [Synth 8-223] decloning instance 'ro_array/ring_array5_1' (LT_ring_osc) to 'ro_array/ring_array5_3'
+INFO: [Synth 8-223] decloning instance 'ro_array/ring_array5_1' (LT_ring_osc) to 'ro_array/ring_array5_4'
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   4 Input      1 Bit         XORs := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input    4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+INFO: [Device 21-9227] Part: xc7k70tfbv676-1 does not have CEAM library.
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:32 . Memory (MB): peak = 1268.574 ; gain = 751.105
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:32 . Memory (MB): peak = 1268.574 ; gain = 751.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:32 . Memory (MB): peak = 1268.574 ; gain = 751.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:40 . Memory (MB): peak = 1268.574 ; gain = 751.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:40 . Memory (MB): peak = 1268.574 ; gain = 751.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:40 . Memory (MB): peak = 1268.574 ; gain = 751.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:40 . Memory (MB): peak = 1268.574 ; gain = 751.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:40 . Memory (MB): peak = 1268.574 ; gain = 751.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:40 . Memory (MB): peak = 1268.574 ; gain = 751.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT1 |     6|
+|3     |LUT2 |     2|
+|4     |LUT3 |     1|
+|5     |LUT4 |     1|
+|6     |FDCE |     8|
+|7     |FDPE |     8|
+|8     |IBUF |     4|
+|9     |OBUF |     5|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------------------+------------------+------+
+|      |Instance             |Module            |Cells |
++------+---------------------+------------------+------+
+|1     |top                  |                  |    36|
+|2     |  entropy_sampler    |sampler_xor       |    19|
+|3     |  ro_array           |LT_ring_osc_array |     7|
+|4     |    ring_array5_1    |LT_ring_osc       |     7|
+|5     |      \inv_array[4]  |LT_inverter__1    |     1|
+|6     |        ihp_inverter |sg13g2_inv_1__1   |     1|
+|7     |      \inv_array[3]  |LT_inverter__2    |     1|
+|8     |        ihp_inverter |sg13g2_inv_1__2   |     1|
+|9     |      \inv_array[2]  |LT_inverter__3    |     1|
+|10    |        ihp_inverter |sg13g2_inv_1__3   |     1|
+|11    |      \inv_array[1]  |LT_inverter__4    |     1|
+|12    |        ihp_inverter |sg13g2_inv_1__4   |     1|
+|13    |      \inv_array[0]  |LT_inverter       |     1|
+|14    |        ihp_inverter |sg13g2_inv_1      |     1|
++------+---------------------+------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:40 . Memory (MB): peak = 1268.574 ; gain = 751.105
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:28 ; elapsed = 00:00:40 . Memory (MB): peak = 1268.574 ; gain = 751.105
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:40 . Memory (MB): peak = 1268.574 ; gain = 751.105
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1277.520 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1377.230 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 579ec7f3
+INFO: [Common 17-83] Releasing license: Synthesis
+26 Infos, 14 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:43 . Memory (MB): peak = 1377.230 ; gain = 862.738
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1377.230 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Github/tt_ihp26a_ringosc_stdcell/Vivado/RO_XOR/RO_XOR.runs/synth_1/LT_RO_entropy.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file LT_RO_entropy_utilization_synth.rpt -pb LT_RO_entropy_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 22 22:38:49 2026...
