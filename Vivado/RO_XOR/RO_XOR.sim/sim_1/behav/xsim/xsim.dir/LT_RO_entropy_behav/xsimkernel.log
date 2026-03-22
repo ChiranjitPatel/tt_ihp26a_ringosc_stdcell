@@ -1,0 +1,7 @@
+Running: xsim.dir/LT_RO_entropy_behav/xsimk.exe -simmode gui -wdb LT_RO_entropy_behav.wdb -simrunnum 0 -socket 59516
+Design successfully loaded
+Design Loading Memory Usage: 9840 KB (Peak: 9840 KB)
+Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 10468 KB (Peak: 10468 KB)
+Simulation CPU Usage: 61 ms

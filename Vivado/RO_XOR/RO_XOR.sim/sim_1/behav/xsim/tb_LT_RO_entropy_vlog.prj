@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../src/ring_osc_array.v" \
+"../../../../../../src/sampler_xor.v" \
+"../../../../../../src/tb_LT_RO_entropy.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -49,12 +49,23 @@ module tt_um_ihp26a_ring_osc (
   end
   assign uo_out[5] = c2[3]; // less than 1MHz?
 
+// modules for LT RO and XOR entropy
+LT_RO_entropy dut (
+        .RO_XOR_sel   (uio_in[0]),
+        .clk          (clk),
+        .rst_n        (rst_n),
+        .ena          (ena),
+        .ro_out_final (uio_out[3:0]),
+        .entropy_out  (uio_out[4])
+    );
+	
+	
 // List all unused inputs to prevent warnings
-  wire _unused = &{clk, 1'b0};
+  wire _unused = &{ui_in[7:6], uio_in[7:1], clk, 1'b0};
   
   // assign uio_oe = 8'b1100_0011;
   assign uo_out[7:6] = 0;
-  assign uio_out = 0;
+  assign uio_out[7:5] = 0;
   assign uio_oe = 0;
 
 
