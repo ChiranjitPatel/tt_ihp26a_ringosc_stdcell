@@ -1,0 +1,9 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+D:/Github/tt_ihp26a_ringosc_stdcell/Vivado/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+D:/Github/tt_ihp26a_ringosc_stdcell/src/project.v,1774182256,verilog,,D:/Github/tt_ihp26a_ringosc_stdcell/src/ring_osc.v,,tt_um_ihp26a_ring_osc,,,,,,,,
+D:/Github/tt_ihp26a_ringosc_stdcell/src/ring_osc.v,1774180427,verilog,,D:/Github/tt_ihp26a_ringosc_stdcell/src/tb_tt_um_ihp26a_ring_osc.v,,amm_inverter;ring_osc,,,,,,,,
+D:/Github/tt_ihp26a_ringosc_stdcell/src/sg13g2_cells_sim.v,1774180185,verilog,,,,sg13g2_buf_1;sg13g2_inv_1,,,,,,,,
+D:/Github/tt_ihp26a_ringosc_stdcell/src/tb_tt_um_ihp26a_ring_osc.v,1774180198,verilog,,,D:/Github/tt_ihp26a_ringosc_stdcell/src/sg13g2_cells_sim.v,tb_tt_um_ihp26a_ring_osc,,,,,,,,

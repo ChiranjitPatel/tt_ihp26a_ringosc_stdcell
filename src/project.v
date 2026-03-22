@@ -26,21 +26,31 @@ module tt_um_ihp26a_ring_osc (
   // // Ring of 1001 inverters, output on uo_out[3] ~ 14MHz?
   ring_osc #(.DEPTH(500)) ring_1001 (.ena(ena), .osc_out(uo_out[3]));
 
- 
-  // Likewise, a simple clock divider on ring_125:
-  wire c1clock = uo_out[0]; // ~112MHz?
   reg [3:0] c1;
-  always @(posedge c1clock) c1 <= c1 + 1;
-  assign uo_out[4] = c1[3]; // ~14MHz? Probably won't be exactly the same as uo_out[3].
+  reg [3:0] c2;
+
+  // a simple clock 16 divider on ring_125:
+  wire c1clock = uo_out[1]; // ~112MHz?
+  always @(posedge c1clock or negedge rst_n) begin
+    if (!rst_n)
+        c1 <= 4'd0;
+    else
+        c1 <= c1 + 1;
+  end
+  assign uo_out[4] = c1[3]; // less than 5MHz?
   
   // Likewise, a simple clock divider on ring_1001:
-  wire c2clock = uo_out[3]; // ~14MHz?
-  reg [3:0] c2;
-  always @(posedge c2clock) c2 <= c2 + 1;
-  assign uo_out[5] = c1[3]; // ~1MHz?
+  wire c2clock = uo_out[3];   
+  always @(posedge c2clock or negedge rst_n) begin
+      if (!rst_n)
+          c2 <= 4'd0;
+      else
+          c2 <= c2 + 1;
+  end
+  assign uo_out[5] = c2[3]; // less than 1MHz?
 
 // List all unused inputs to prevent warnings
-  wire _unused = &{clk, rst_n, 1'b0};
+  wire _unused = &{clk, 1'b0};
   
   // assign uio_oe = 8'b1100_0011;
   assign uo_out[7:6] = 0;

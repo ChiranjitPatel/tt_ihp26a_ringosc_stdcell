@@ -24,7 +24,7 @@ module ring_osc #(
     parameter DEPTH = 500 // Becomes DEPTH*2+1 inverters to ensure it is odd.
 ) (
     input wire ena,
-    output osc_out
+    output wire osc_out
 );
 
     wire [DEPTH*2:0] inv_in;
