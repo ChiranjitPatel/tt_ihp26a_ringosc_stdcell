@@ -3,6 +3,9 @@
 May 22 2024
 19:03:11
 D:/Github/tt_ihp26a_ringosc_stdcell/Vivado/RO_XOR/RO_XOR.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
-D:/Github/tt_ihp26a_ringosc_stdcell/src/sampler_xor.v,1774194435,verilog,,D:/Github/tt_ihp26a_ringosc_stdcell/src/tb_LT_RO_entropy.v,,sampler_xor,,,,,,,,
-D:/Github/tt_ihp26a_ringosc_stdcell/src/sg13g2_cells_sim.v,1774180185,verilog,,,,sg13g2_buf_1;sg13g2_inv_1,,,,,,,,
+D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_RO_entropy.v,1774200349,verilog,,D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v,,LT_RO_entropy,,,,,,,,
+D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v,1774199107,verilog,,D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_ring_osc_array.v,,LT_inverter,,,,,,,,
+D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_ring_osc_array.v,1774201112,verilog,,D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_sampler_xor.v,,LT_ring_osc;LT_ring_osc_array,,,,,,,,
+D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_sampler_xor.v,1774199998,verilog,,D:/Github/tt_ihp26a_ringosc_stdcell/src/sg13g2_cells_sim.v,,LT_sampler_xor,,,,,,,,
+D:/Github/tt_ihp26a_ringosc_stdcell/src/sg13g2_cells_sim.v,1774180185,verilog,,D:/Github/tt_ihp26a_ringosc_stdcell/src/tb_LT_RO_entropy.v,,sg13g2_buf_1;sg13g2_inv_1,,,,,,,,
 D:/Github/tt_ihp26a_ringosc_stdcell/src/tb_LT_RO_entropy.v,1774196659,verilog,,D:/Github/tt_ihp26a_ringosc_stdcell/src/ring_osc_array.v,D:/Github/tt_ihp26a_ringosc_stdcell/src/sg13g2_cells_sim.v,tb_LT_RO_entropy,,,,,,,,

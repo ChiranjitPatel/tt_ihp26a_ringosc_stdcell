@@ -1,9 +1,9 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  \
+"../../../../../../src/LT_RO_entropy.v" \
 "../../../../../../src/LT_inverter.v" \
 "../../../../../../src/LT_ring_osc_array.v" \
-"../../../../../../src/ring_osc_array.v" \
-"../../../../../../src/sampler_xor.v" \
+"../../../../../../src/LT_sampler_xor.v" \
 "../../../../../../src/sg13g2_cells_sim.v" \
 "../../../../../../src/tb_LT_RO_entropy.v" \
 
