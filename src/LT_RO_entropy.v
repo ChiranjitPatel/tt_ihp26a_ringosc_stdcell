@@ -20,7 +20,7 @@ module LT_RO_entropy (
 
     // Entropy sampler (XOR reduction + optional LFSR sim mode)
     wire entropy_bit;
-    sampler_xor #(
+    LT_sampler_xor #(
         .N (4)
     ) entropy_sampler (
         .clk        (clk),
