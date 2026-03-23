@@ -6,7 +6,7 @@ module LT_ring_osc_array (
 LT_ring_osc #(.DEPTH(63)) ring_array_1 (.ena(ena), .osc_out(ro_out[0]));
 LT_ring_osc #(.DEPTH(125)) ring_array_2 (.ena(ena), .osc_out(ro_out[1]));
 LT_ring_osc #(.DEPTH(260)) ring_array_3 (.ena(ena), .osc_out(ro_out[2]));
-LT_ring_osc #(.DEPTH(378)) ring_array_4 (.ena(ena), .osc_out(ro_out[3]));
+LT_ring_osc #(.DEPTH(366)) ring_array_4 (.ena(ena), .osc_out(ro_out[3]));
 
 endmodule
 
