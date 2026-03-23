@@ -2,11 +2,11 @@ module LT_ring_osc_array (
 	input wire ena,
 	output wire [3:0] ro_out
 );
-// 127, 251, 521, 613, 757, 809, 1009
+// 127, 251, 307, 521, 613, 757, 809, 1009
 LT_ring_osc #(.DEPTH(63)) ring_array_1 (.ena(ena), .osc_out(ro_out[0]));
 LT_ring_osc #(.DEPTH(125)) ring_array_2 (.ena(ena), .osc_out(ro_out[1]));
-LT_ring_osc #(.DEPTH(260)) ring_array_3 (.ena(ena), .osc_out(ro_out[2]));
-LT_ring_osc #(.DEPTH(366)) ring_array_4 (.ena(ena), .osc_out(ro_out[3]));
+LT_ring_osc #(.DEPTH(153)) ring_array_3 (.ena(ena), .osc_out(ro_out[2]));
+LT_ring_osc #(.DEPTH(260)) ring_array_4 (.ena(ena), .osc_out(ro_out[3]));
 
 endmodule
 
