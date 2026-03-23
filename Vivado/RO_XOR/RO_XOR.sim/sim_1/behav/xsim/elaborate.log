@@ -9,13 +9,7 @@ Completed static elaboration
 Starting simulation data flow analysis
 WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_RO_entropy.v" Line 4. Module LT_RO_entropy doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_ring_osc_array.v" Line 1. Module LT_ring_osc_array doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_ring_osc_array.v" Line 12. Module LT_ring_osc(DEPTH=2) doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_ring_osc_array.v" Line 12. Module LT_ring_osc(DEPTH=3) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_ring_osc_array.v" Line 13. Module LT_ring_osc(DEPTH=63) doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
@@ -23,26 +17,6 @@ WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" 
 WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_ring_osc_array.v" Line 12. Module LT_ring_osc(DEPTH=1) doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_ring_osc_array.v" Line 12. Module LT_ring_osc(DEPTH=2) doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_sampler_xor.v" Line 1. Module LT_sampler_xor doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_RO_entropy.v" Line 4. Module LT_RO_entropy doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_ring_osc_array.v" Line 1. Module LT_ring_osc_array doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_ring_osc_array.v" Line 12. Module LT_ring_osc(DEPTH=2) doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_ring_osc_array.v" Line 12. Module LT_ring_osc(DEPTH=3) doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
@@ -50,24 +24,98 @@ WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" 
 WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_ring_osc_array.v" Line 12. Module LT_ring_osc(DEPTH=1) doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_ring_osc_array.v" Line 12. Module LT_ring_osc(DEPTH=2) doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_sampler_xor.v" Line 1. Module LT_sampler_xor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_inverter.v" Line 1. Module LT_inverter doesn't have a timescale but at least one module in design has a timescale.
+INFO: [Common 17-14] Message 'XSIM 43-4099' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.sg13g2_inv_1
 Compiling module xil_defaultlib.LT_inverter
-Compiling module xil_defaultlib.LT_ring_osc(DEPTH=2)
-Compiling module xil_defaultlib.LT_ring_osc(DEPTH=3)
-Compiling module xil_defaultlib.LT_ring_osc(DEPTH=1)
+Compiling module xil_defaultlib.LT_ring_osc(DEPTH=63)
+Compiling module xil_defaultlib.LT_ring_osc(DEPTH=125)
+Compiling module xil_defaultlib.LT_ring_osc(DEPTH=260)
+Compiling module xil_defaultlib.LT_ring_osc(DEPTH=540)
 Compiling module xil_defaultlib.LT_ring_osc_array
 Compiling module xil_defaultlib.LT_sampler_xor
 Compiling module xil_defaultlib.LT_RO_entropy

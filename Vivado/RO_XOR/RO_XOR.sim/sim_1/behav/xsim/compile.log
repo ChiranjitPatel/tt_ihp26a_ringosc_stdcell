@@ -7,3 +7,12 @@ INFO: [VRFC 10-311] analyzing module LT_ring_osc_array
 INFO: [VRFC 10-311] analyzing module LT_ring_osc
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Github/tt_ihp26a_ringosc_stdcell/src/LT_sampler_xor.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module LT_sampler_xor
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Github/tt_ihp26a_ringosc_stdcell/src/sg13g2_cells_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sg13g2_inv_1
+INFO: [VRFC 10-311] analyzing module sg13g2_buf_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Github/tt_ihp26a_ringosc_stdcell/src/tb_LT_RO_entropy.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sg13g2_inv_1
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'sg13g2_inv_1' [D:/Github/tt_ihp26a_ringosc_stdcell/src/sg13g2_cells_sim.v:8]
+INFO: [VRFC 10-311] analyzing module sg13g2_buf_1
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'sg13g2_buf_1' [D:/Github/tt_ihp26a_ringosc_stdcell/src/sg13g2_cells_sim.v:16]
+INFO: [VRFC 10-311] analyzing module tb_LT_RO_entropy
