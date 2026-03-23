@@ -2,3 +2,6 @@ Running: xsim.dir/tb_LT_RO_entropy_behav/xsimk.exe -simmode gui -wdb tb_LT_RO_en
 Design successfully loaded
 Design Loading Memory Usage: 9880 KB (Peak: 9880 KB)
 Design Loading CPU Usage: 62 ms
+Simulation completed
+Simulation Memory Usage: 11380 KB (Peak: 11380 KB)
+Simulation CPU Usage: 1796 ms

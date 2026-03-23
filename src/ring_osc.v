@@ -1,13 +1,5 @@
 `default_nettype none
 
-// Originally this was designed for TT09 on sky130, using the sky130_fd_sc_hd__inv_2 cell.
-// See: https://github.com/algofoogle/tt09-ring-osc2/commit/ee2feec185f6f5ddf48dfbf057093a3cfc8f5dea
-// It was rehardened for TTIHP25a using a sky130 "polyfill" (mapping sky130 cells to equivalent
-// cells or logic in the IHP PDK).
-// See: https://github.com/TinyTapeout/tt09-ttihp25a-reharden/blob/cfa0e6adf57c4bb4c5f6ec924ec0cc5bfb1fdfe2/hdl/tt_um_algofoogle_tt09_ring_osc2/src/sky130_polyfill.v#L389
-// Hence, where you see sky130_fd_sc_hd__inv_2 below, it maps instead to a logical complement, which in turn
-// maps to some IHP inverter cell.
-
 module amm_inverter (
     input   wire a,
     output  wire y

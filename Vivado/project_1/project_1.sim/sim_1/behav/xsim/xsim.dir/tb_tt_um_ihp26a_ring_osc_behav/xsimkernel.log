@@ -2,3 +2,6 @@ Running: xsim.dir/tb_tt_um_ihp26a_ring_osc_behav/xsimk.exe -simmode gui -wdb tb_
 Design successfully loaded
 Design Loading Memory Usage: 10864 KB (Peak: 10864 KB)
 Design Loading CPU Usage: 30 ms
+Simulation completed
+Simulation Memory Usage: 22472 KB (Peak: 22472 KB)
+Simulation CPU Usage: 66718 ms

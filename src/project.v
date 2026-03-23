@@ -18,9 +18,11 @@ module tt_um_ihp26a_ring_osc (
 
 
   // Ring of 3 inverters, output on uo_out[0] ~ xMHz, if it makes it out?
-  ring_osc #(.DEPTH(1)) ring_3 (.ena(ena), .osc_out(uo_out[0]));
+  ring_osc #(.DEPTH(1)) ring_3 (.ena(ena), .osc_out(uo_out[6]));
   // // Ring of 125 inverters, output on uo_out[1] ~ 112MHz?
-  ring_osc #(.DEPTH(62)) ring_125 (.ena(ena), .osc_out(uo_out[1]));
+  ring_osc #(.DEPTH(62)) ring_125 (.ena(ena), .osc_out(uo_out[0]));
+  // // Ring of 251 inverters, output on uo_out[1] ~ 112MHz?
+  ring_osc #(.DEPTH(125)) ring_125 (.ena(ena), .osc_out(uo_out[1]));
   // // Ring of 501 inverters, output on uo_out[2] ~ 28MHz?
   ring_osc #(.DEPTH(250)) ring_501 (.ena(ena), .osc_out(uo_out[2]));
   // // Ring of 1001 inverters, output on uo_out[3] ~ 14MHz?
@@ -61,10 +63,10 @@ LT_RO_entropy dut (
 	
 	
 // List all unused inputs to prevent warnings
-  wire _unused = &{ui_in[7:6], uio_in[7:1], clk, 1'b0};
+  wire _unused = &{ui_in, uio_in[7:1], clk, 1'b0};
   
   // assign uio_oe = 8'b1100_0011;
-  assign uo_out[7:6] = 0;
+  assign uo_out[7] = 0;
   assign uio_out[7:5] = 0;
   assign uio_oe = 0;
 
