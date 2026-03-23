@@ -21,7 +21,7 @@ module tt_um_ihp26a_ring_osc (
   ring_osc #(.DEPTH(1)) ring_3 (.ena(ena), .osc_out(uo_out[6]));
   // // Ring of 125 inverters, output on uo_out[1] ~ 112MHz?
   ring_osc #(.DEPTH(62)) ring_125 (.ena(ena), .osc_out(uo_out[0]));
-  // // Ring of 251 inverters, output on uo_out[1] ~ 112MHz?
+  // // Ring of 251 inverters, output on uo_out[1] ~ 50MHz?
   ring_osc #(.DEPTH(125)) ring_251 (.ena(ena), .osc_out(uo_out[1]));
   // // Ring of 501 inverters, output on uo_out[2] ~ 28MHz?
   ring_osc #(.DEPTH(250)) ring_501 (.ena(ena), .osc_out(uo_out[2]));
